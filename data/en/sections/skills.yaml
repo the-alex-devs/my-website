@@ -13,59 +13,59 @@ section:
 buttons:
 - name: All
   filter: "all"
-- name: Basic
-  filter: "basic"
-- name: Language
-  filter: "language"
-- name: Container
-  filter: "container"
-- name: Others
-  filter: "others"
+- name: Networking
+  filter: "networking"
+- name: Cybersecurity
+  filter: "cybersecurity"
+- name: Cloud/Systems
+  filter: "cloudsystems"
+- name: Programming
+  filter: "programming"
 
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 skills:
-- name: Kubernetes
-  logo: /images/sections/skills/kubernetes.png
-  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
-  categories: ["container"]
-  url: "https://kubernetes.io/"
+- name: Networking
+  logo: /images/sections/skills/router.png
+  summary: "Capable of configuring and maintaining large enterprise networks. Experienced with Cisco (switches, routers, firewalls) and Palo Alto (firewalls) products. "
+  categories: ["networking"]
+  #url: "https://kubernetes.io/"
 
-- name: Go Development
-  logo: /images/sections/skills/go.png
-  summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
-  categories: ["basic", "language"]
-  url: "https://golang.org/"
+- name: Firewalls
+  logo: /images/sections/skills/firewall.png
+  summary: "Experienced with Firepower and Palo Alto NGFWs and managing them using FMC and Panorama."
+  categories: ["networking", "cybersecurity"]
+  #url: "https://golang.org/"
 
 - name: Cloud Computing
   logo: /images/sections/skills/cloud.png
-  summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
-  categories: ["others"]
+  summary: "Experienced with managing both hybrid and full cloud environments in Azure and AWS."
+  categories: ["cloudsystems"]
 
-- name: Docker
-  logo: /images/sections/skills/docker.svg
-  summary: "Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process."
-  categories: ["container"]
-  url: "https://www.docker.com/"
+- name: Automation
+  logo: /images/sections/skills/automation.png
+  summary: "Have utilized Python, Ansible, and SolarWinds NCM to automate compliance checks, recurring tasks, and mass configuration changes."
+  categories: ["networking", "cybersecurity", "programming"]
+  #url: "https://www.docker.com/"
 
-- name: Prometheus
-  logo: /images/sections/skills/prometheus.png
-  summary: "Capable of setup, configure Prometheus metrics. Experienced with PromQL, AlertManager. Also, experienced with writing metric exporters."
-  categories: ["basic"]
-  url: "https://prometheus.io/"
+- name: Python
+  logo: /images/sections/skills/python.png
+  summary: "Created Python scripts to automate various networking and security tasks. Also created a GUI application to consolidate frequently used scripts, links, and shortcuts for team."
+  categories: ["all", "programming"]
+  #url: "https://prometheus.io/"
 
-- name: Linux
-  logo: /images/sections/skills/linux.png
-  summary: "Using as the main operating system. Capable of writing bash/shell scripts."
-  categories: ["others"]
+- name: Security Hardening
+  logo: /images/sections/skills/hardening.png
+  summary: "Experienced with Nessus, RedSeal, and Alien Vault to identify vulnerabilities and best practice violations and remediate them."
+  categories: ["cybersecurity", "cloudsystems"]
 
-- name: Git
-  logo: /images/sections/skills/git.png
-  summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
-  categories: ["basic"]
-  url: "https://git-scm.com/"
+- name: Routing
+  logo: /images/sections/skills/router.png
+  summary: "Have used dynamic routing protocols such as BGP and OSPF. Experienced in troubleshooting BGP peers and routing issues."
+  categories: ["networking"]
+  #url: "https://git-scm.com/"
 
-- name: C++
-  logo: /images/sections/skills/c++.png
-  summary: "Know basic C/C++ programming. Used for contest programming and problem solving."
-  categories: ["basic", "language"]
+- name: DoD Experience
+  logo: /images/sections/skills/federal.png
+  summary: "Over 10 years of experience in DoD environments. Familiar with DoD requirements and procedures for IT networks."
+  categories: ["all"]
